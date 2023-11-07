@@ -37,38 +37,118 @@ export const heroData = [
 export const categories = [
   {
     id: 1,
-    name: "Chicken",
-    urlParamName: "chicken",
+    name: "Starters",
+    urlParamName: "starters",
   },
   {
     id: 2,
-    name: "Curry",
-    urlParamName: "curry",
+    name: "Tandoori",
+    urlParamName: "tandoori",
   },
   {
     id: 3,
-    name: "Rice",
-    urlParamName: "rice",
+    name: "Tiffin Special",
+    urlParamName: "special",
   },
   {
     id: 4,
-    name: "Fish",
-    urlParamName: "fish",
+    name: "Kashmir & Malaya",
+    urlParamName: "k&m",
   },
   {
     id: 5,
-    name: "Fruits",
-    urlParamName: "fruits",
+    name: "Balti",
+    urlParamName: "balti",
   },
   {
     id: 6,
-    name: "Icecreams",
-    urlParamName: "icecreams",
+    name: "Bhuna",
+    urlParamName: "bhuna",
   },
 
   {
     id: 7,
-    name: "Soft Drinks",
-    urlParamName: "drinks",
+    name: "Ceylon",
+    urlParamName: "ceylon",
   },
+  {
+    id: 8,
+    name: "Curry",
+    urlParamName: "curry",
+  },
+  {
+    id: 9,
+    name: "Dansak",
+    urlParamName: "ceylon",
+  },
+  {
+    id: 10,
+    name: "Pathia",
+    urlParamName: "pathiya",
+  },  {
+    id: 11,
+    name: "Dupiaza",
+    urlParamName: "dupiaza",
+  },
+  {
+    id: 12,
+    name: "Korai",
+    urlParamName: "korai",
+  },
+  {
+    id: 13,
+    name: "Jalfrazi",
+    urlParamName: "jalfrazi",
+  },  {
+    id: 14,
+    name: "Korma",
+    urlParamName: "korma",
+  },
+  {
+    id: 15,
+    name: "Madras",
+    urlParamName: "madras",
+  },
+  {
+    id: 16,
+    name: "Rogan",
+    urlParamName: "rogan",
+  },
+  {
+    id: 17,
+    name: "Sag",
+    urlParamName: "sag",
+  },  {
+    id: 18,
+    name: "Vegan Dishes",
+    urlParamName: "vegan",
+  },  {
+    id: 19,
+    name: "Biriyani",
+    urlParamName: "korai",
+  },  {
+    id: 20,
+    name: "Side Dishes",
+    urlParamName: "side",
+  },  {
+    id:21,
+    name: "Rice",
+    urlParamName: "rice",
+  },  {
+    id: 22,
+    name: "Bread",
+    urlParamName: "bread",
+  },  {
+    id: 23,
+    name: "Sundries",
+    urlParamName: "sundries",
+  },  {
+    id: 24,
+    name: "English Dishes",
+    urlParamName: "eng-dishes",
+  },  {
+    id: 25,
+    name: "Drinks",
+    urlParamName: "Drinks",
+  },  
 ];

@@ -3,14 +3,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_bxGG0WgOKDejZvER2fTq2xZZjfUs8zs",
-  authDomain: "restaurantapp-c2ed6.firebaseapp.com",
-  databaseURL: "https://restaurantapp-c2ed6-default-rtdb.firebaseio.com",
-  projectId: "restaurantapp-c2ed6",
-  storageBucket: "restaurantapp-c2ed6.appspot.com",
-  messagingSenderId: "174416156605",
-  appId: "1:174416156605:web:2ec169ea4ef3e7bb25e4d4",
+  apiKey: "AIzaSyDBhCeo3AnoM_mHiyukda0rFqGJp637gGQ",
+  authDomain: "tiffin2go-83f7f.firebaseapp.com",
+  databaseURL: "https://tiffin2go-83f7f-default-rtdb.firebaseio.com",
+  projectId: "tiffin2go-83f7f",
+  storageBucket: "tiffin2go-83f7f.appspot.com",
+  messagingSenderId: "463640088625",
+  appId: "1:463640088625:web:5db9b7415fcae0b155c510"
 };
+
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
 
