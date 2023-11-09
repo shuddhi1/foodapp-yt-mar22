@@ -1,36 +1,36 @@
-import I1 from "../img/i1.png";
-import F1 from "../img/f1.png";
-import C3 from "../img/c3.png";
-import Fi1 from "../img/fi1.png";
+import c7 from "../img/c7.png";
+import Cu2 from "../img/cu3.png";
+import Cu3 from "../img/cu3.png";
+import c2 from "../img/c2.png";
 
 export const heroData = [
   {
     id: 1,
-    name: "Icecream",
-    decp: "Chocolate & vanilla",
-    price: "5.25",
-    imageSrc: I1,
+    name: "Prawn  Rogan",
+    decp: "Prawn Rogan",
+    price: "8.95",
+    imageSrc: Cu3,
   },
   {
     id: 2,
-    name: "Strawberries",
-    decp: "Fresh Strawberries",
-    price: "10.25",
-    imageSrc: F1,
+    name: "Chicken Rogan",
+    decp: "Chicken Rogan",
+    price: "7.95",
+    imageSrc: Cu2,
   },
   {
     id: 3,
-    name: "Chicken Kebab",
-    decp: "Mixed Kebab Plate",
-    price: "8.25",
-    imageSrc: C3,
+    name: "Tandoori Chicken 1/2",
+    decp: "@pcs on the Bone",
+    price: "9.00",
+    imageSrc: c7,
   },
   {
     id: 4,
-    name: "Fish Kebab",
-    decp: "Mixed Fish Kebab",
-    price: "5.25",
-    imageSrc: Fi1,
+    name: "Chicken Bhuna",
+    decp: "Chicken Bhuna",
+    price: "7.95",
+    imageSrc: c2,
   },
 ];
 

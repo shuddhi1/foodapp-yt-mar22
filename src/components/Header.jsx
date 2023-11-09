@@ -17,7 +17,7 @@ const Header = () => {
 
   const [{ user, cartShow, cartItems }, dispatch] = useStateValue();
 
-  const [isMenu, setIsMenu] = useState(false);
+  const [isMenu,  setIsMenu] = useState(false);
 
   const login = async () => {
     if (!user) {
@@ -67,13 +67,16 @@ const Header = () => {
             exit={{ opacity: 0, x: 200 }}
             className="flex items-center gap-24 "
           >
+             <Link to={"/"}>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Home
             </li>
-           
+          </Link>
+            <Link to ={'/aboutUs'}>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               About Us
             </li>
+            </Link >
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Service
             </li>
@@ -149,7 +152,7 @@ const Header = () => {
 
         <Link to={"/"} className="flex items-center gap-2">
           <img src={Logo} className="w-8 object-cover" alt="logo" />
-          <p className="text-headingColor text-xl font-bold"> City</p>
+          <p className="text-headingColor text-xl font-bold"> Tiffin2Go</p>
         </Link>
 
         <div className="relative">
@@ -167,7 +170,7 @@ const Header = () => {
               exit={{ opacity: 0, scale: 0.6 }}
               className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
             >
-              {user && user.email === "vetrivel.galaxy@gmail.com" && (
+              {user && user.email === "tiffin2goo@gmail.com" && (
                 <Link to={"/createItem"}>
                   <p className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base">
                     New Item <MdAdd />
@@ -193,7 +196,7 @@ const Header = () => {
                   onClick={() => setIsMenu(false)}
                 >
                   About Us
-                </li>
+                </li> 
                 <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
